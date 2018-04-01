@@ -21,9 +21,9 @@ main {
 
 .package:hover,
 .package:active {
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     border-color: #ff5454;
-    /*border-color: #ff5454 !important;*/
+    /* border-color: #ff5454 !important; */
 }
 
 .package a {
@@ -37,8 +37,8 @@ main {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 1.25rem;
-    font-size: 0.75rem;
+    margin: 1.2rem;
+    font-size: 0.8rem;
     color: white;
     background: #ff5454;
     padding: 0.5rem;
@@ -51,7 +51,7 @@ main {
 .package__info {
     padding: 1rem;
     border: 1px solid #0e4f1f;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     color: #0e4f1f;
     background: white;
 }
@@ -74,11 +74,11 @@ main {
 
 #free:hover,
 #free:active {
-    border-left-color: #ff1b68;
+    border-left-color: #ff5454;
 }
 
 #premium {
-    background: rgba(14, 79,31, 0.95);
+    background: rgba(14, 79, 31, 0.95);
 }
 
 #premium .package__title {
